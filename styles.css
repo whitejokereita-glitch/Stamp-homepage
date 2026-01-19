@@ -86,9 +86,9 @@ a{color:inherit;text-decoration:none}
 
 .mediaCard__img{
   height: 320px;
-  background: url("./images/IMG_3852.jpeg") center top / cover no-repeat;
+  background: url("./images/IMG_3852.jpeg") center / contain no-repeat;
+  background-color: #ffffff;
 }
-
 
 /* ★ここを画像にしたい場合は、次を追記して上書き：
 .mediaCard__img{ background: url("./images/hero.png") center/cover no-repeat; }
