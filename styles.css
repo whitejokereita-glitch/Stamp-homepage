@@ -86,11 +86,9 @@ a{color:inherit;text-decoration:none}
 
 .mediaCard__img{
   height: 320px;
-  background:
-    radial-gradient(900px 420px at 20% 20%, rgba(79,124,255,.25), transparent 60%),
-    radial-gradient(700px 360px at 80% 35%, rgba(106,214,199,.22), transparent 60%),
-    linear-gradient(180deg, #f1f7ff, #ffffff);
+  background: url("./images/IMG_3852.jpeg") center top / cover no-repeat;
 }
+
 
 /* ★ここを画像にしたい場合は、次を追記して上書き：
 .mediaCard__img{ background: url("./images/hero.png") center/cover no-repeat; }
