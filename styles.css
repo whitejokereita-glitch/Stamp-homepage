@@ -220,5 +220,5 @@ input:focus,textarea:focus,select:focus{
   .afterGrid{grid-template-columns:1fr 1fr}
 }
 .mediaCard__img{
-  background: url("./images/IMG_3852.jpeg") center/cover no-repeat;
+  background: url("./images/IMG_3852.jpeg") center/cover no-repeat !important;
 }
