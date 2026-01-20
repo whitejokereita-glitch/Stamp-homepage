@@ -229,4 +229,15 @@ input:focus,textarea:focus,select:focus{
 .scope strong{
   color: var(--text);
 }
+.scope{
+  margin: 10px 0 8px;
+  font-size: .92rem;
+  line-height: 1.7;
+  color: var(--subtext);
+}
+.scope strong{
+  color: var(--text);
+}
+.scope .ok{ color:#0f766e; font-weight:800; }
+.scope .ng{ color:#b91c1c; font-weight:800; }
 
