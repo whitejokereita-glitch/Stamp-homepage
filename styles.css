@@ -235,3 +235,22 @@ input:focus,textarea:focus,select:focus{
   .beforeImg{ height: 220px; }
 }
 
+/* Before/After ともに「画像全体が入る」表示に統一 */
+.sample__before img,
+.afterGrid img{
+  width: 100%;
+  height: 260px;
+  object-fit: contain;      /* ←全体が入る */
+  object-position: center;
+  background: #fff;         /* 余白の色 */
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  display: block;
+}
+
+@media (max-width: 920px){
+  .sample__before img,
+  .afterGrid img{
+    height: 200px;
+  }
+}
