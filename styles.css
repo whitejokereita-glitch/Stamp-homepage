@@ -226,3 +226,12 @@ input:focus,textarea:focus,select:focus{
 }
 .scope .ok{ color:#0f766e; font-weight:800; }
 .scope .ng{ color:#b91c1c; font-weight:800; }
+.beforeImg{
+  height: 280px;
+  object-fit: cover;
+  object-position: center;
+}
+@media (max-width: 920px){
+  .beforeImg{ height: 220px; }
+}
+
